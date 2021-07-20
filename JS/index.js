@@ -56,7 +56,7 @@ const validar = () => {
 
     if (error == true) {
         Swal.fire({
-            'icon': 'error',
+            'icon': 'warning',
             'title': 'All Fields are Required',
             'text': `Can't insert a new task with empty Fields`,
             'confirmButtonText': 'OK'
@@ -68,7 +68,7 @@ const validar = () => {
     }
 }
 
-mostrarTareas()
+//mostrarTareas()
 console.log(tasks)
 
 btnRegistrar.addEventListener('click', validar);
