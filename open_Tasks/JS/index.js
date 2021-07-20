@@ -2,7 +2,8 @@
 
 const mostrarTareas = () => {
     tasks.forEach(tarea => {
-        let tareaDiv = document.createElement('div');
+        const tareaDiv = document.querySelector('#openTasks')
+        let tareaDiv1 = document.createElement('div');
         let newContentDate = document.createTextNode(tarea.date);
         let newContentName = document.createTextNode(tarea.name);
         let newContentPri = document.createTextNode(tarea.priority);
@@ -15,8 +16,8 @@ const mostrarTareas = () => {
         tareaDiv.appendChild(newContentAttend);
         tareaDiv.appendChild(newContentDesc);
 
-        document.body.appendChild(tareaDiv);
-        tareaDiv.classList.add("tasks");
+        document.openTasks.appendChild(tareaDiv);
+        document.querySelector('#openTasks').classList.add("tareas");
     })
 }
 
