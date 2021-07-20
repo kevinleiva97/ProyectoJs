@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AACI,MADE,CACF,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CAAG;;AAC7B,AAAA,MAAM,CAAC;EACH,gBAAgB,EDHR,OAAO;CCGgB",
+    "sources": [
+        "../SASS/base.sass",
+        "../SASS/_variables.sass",
+        "../SASS/_index.sass"
+    ],
+    "names": [],
+    "file": "base.css"
+}
