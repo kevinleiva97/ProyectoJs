@@ -8,6 +8,18 @@ const attendantBy = document.querySelector('#attendant');
 const description = document.querySelector('#description');
 
 
+const resgitrarTarea = () => {
+    let nuevaTarea = {
+        date: inputDate.value,
+        name: inputName.value,
+        priority: priority.value,
+        attendant: attendantBy.value,
+        description: description.value
+    }
+    tasks.push(nuevaTarea);
+
+}
+
 
 const validar = () => {
 
@@ -34,4 +46,5 @@ const validar = () => {
     }
 }
 
+console.log(tasks)
 btnRegistrar.addEventListener('click', validar);
