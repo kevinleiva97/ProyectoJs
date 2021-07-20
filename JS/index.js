@@ -25,7 +25,7 @@ const validar = () => {
             'icon': 'error',
             'title': 'All Fields are Required',
             'text': `Can't insert a new task with empty Fields`,
-            'confirmButtonText': 'Ok'
+            'confirmButtonText': 'OK'
         });
 
     } else {
