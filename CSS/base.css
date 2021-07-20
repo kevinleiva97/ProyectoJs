@@ -10,6 +10,12 @@ footer {
 .btn-form {
   background-color: #212529;
   color: #fff;
+  border-radius: 20px;
+}
+
+.btn-form:hover {
+  background-color: #d3d3d3;
+  color: #212529;
 }
 
 .form-group form {
