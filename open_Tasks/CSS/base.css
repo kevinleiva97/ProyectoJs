@@ -3,7 +3,8 @@
   text-align: center;
 }
 
-.tareas {
+.tareas .p {
   color: #e40000;
+  font-size: 5rem !important;
 }
 /*# sourceMappingURL=base.css.map */
