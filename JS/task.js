@@ -1,6 +1,6 @@
 let tasks = [{
-        "date task": "19 / 07 / 2021",
-        "name task": "Start task",
+        "date": "2021-07-19",
+        "name": "Start task",
         "priority": "High",
         "attendant": "Kevin",
         "description": "Esta tarea es de prueba para crear el JSON"

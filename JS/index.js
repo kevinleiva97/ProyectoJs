@@ -7,7 +7,6 @@ const priority = document.querySelector('#priority');
 const attendantBy = document.querySelector('#attendant');
 const description = document.querySelector('#description');
 
-
 const resgitrarTarea = () => {
     let nuevaTarea = {
         date: inputDate.value,
@@ -19,6 +18,29 @@ const resgitrarTarea = () => {
     tasks.push(nuevaTarea);
 
 }
+
+
+
+//! Esto hay que borrarlo para trasladarlo a la ventana Open tasks
+const mostrarTareas = () => {
+    tasks.forEach(tarea => {
+        let tareaDiv = document.createElement('div');
+        let newContent = document.createTextNode(tarea.date);
+        let newContentName = document.createTextNode(tarea.name);
+        let newContentPri = document.createTextNode(tarea.priority);
+        let newContentAttend = document.createTextNode(tarea.attendant);
+        let newContentDesc = document.createTextNode(tarea.description);
+
+        tareaDiv.appendChild(newContent);
+        tareaDiv.appendChild(newContentName);
+        tareaDiv.appendChild(newContentPri);
+        tareaDiv.appendChild(newContentAttend);
+        tareaDiv.appendChild(newContentDesc);
+
+        document.body.appendChild(tareaDiv);
+    })
+}
+
 
 
 const validar = () => {
@@ -46,5 +68,7 @@ const validar = () => {
     }
 }
 
+mostrarTareas()
 console.log(tasks)
+
 btnRegistrar.addEventListener('click', validar);

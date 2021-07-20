@@ -1,6 +1,11 @@
+html {
+  font-family: 'Roboto';
+}
+
 .tasks h1 {
   font-size: 2rem;
   text-align: center;
+  font-family: 'Roboto';
 }
 
 footer {
@@ -8,6 +13,7 @@ footer {
 }
 
 .btn-form {
+  font-family: 'Roboto';
   background-color: #212529;
   color: #fff;
   border-radius: 20px;
@@ -16,6 +22,10 @@ footer {
 .btn-form:hover {
   background-color: #d3d3d3;
   color: #212529;
+}
+
+.form-group {
+  font-family: 'Roboto';
 }
 
 .form-group form {
