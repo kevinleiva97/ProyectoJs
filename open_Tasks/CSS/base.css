@@ -7,4 +7,9 @@
   color: #e40000;
   font-size: 5rem !important;
 }
+
+.titulo {
+  border: 5px solid #7e6565;
+  font-size: 5rem;
+}
 /*# sourceMappingURL=base.css.map */

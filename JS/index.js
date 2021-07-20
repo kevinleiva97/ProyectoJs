@@ -22,7 +22,7 @@ const resgitrarTarea = () => {
 
 
 //! Esto hay que borrarlo para trasladarlo a la ventana Open tasks
-const mostrarTareas = () => {
+/*const mostrarTareas = () => {
     tasks.forEach(tarea => {
         let tareaDiv = document.createElement('div');
         let newContent = document.createTextNode(tarea.date);
@@ -39,7 +39,7 @@ const mostrarTareas = () => {
 
         document.body.appendChild(tareaDiv);
     })
-}
+}*/
 
 
 
